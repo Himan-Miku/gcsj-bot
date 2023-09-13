@@ -53,9 +53,7 @@ client.on('messageCreate', async (message) => {
         .setDescription(
           'Please send us an email in the `following format` to reserve your spot as one of the `first 80` people who will receive goodies.'
         )
-        .setImage(
-          'https://wallpapers.com/images/featured/miku-nakano-h9l1l1gmrv07fpmf.jpg'
-        );
+        .setImage('https://i.ibb.co/Z1nvTRw/format-email.png');
 
       embeds.push(embed);
 
