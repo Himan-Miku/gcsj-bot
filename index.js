@@ -20,7 +20,7 @@ client.on('ready', () => {
 client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
 
-  if (message.channelId === '1151502614798798868') {
+  if (message.channelId === '1148987453978456166') {
     console.log('Message : ', message);
 
     if (
